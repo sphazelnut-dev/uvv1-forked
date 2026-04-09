@@ -51,7 +51,7 @@ pageRefresh.onclick = () => {
 };
 
 newTabButton.onclick = () => {
-  addTab("math-hub.pages.dev/newtab");
+  addTab("https://google.com");
 };
 
 // Options (opt menu)
