@@ -249,7 +249,7 @@ async function addTab(link) {
   focusTab(tab);
 }
 
-addTab("https://google.com");
+addTab("https://gn-math.dev");
 
 const urlParams = new URLSearchParams(window.location.search);
 
