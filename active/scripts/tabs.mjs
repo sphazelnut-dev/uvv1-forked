@@ -75,7 +75,8 @@ abcOption.onclick = () => {
 };
 
 gitOption.onclick = () => {
-  window.open("https://github.com/tharun9772/bloxproxy", "_blank");
+  alert("check back later");
+  //window.open("https://github.com/sphazelnut-dev/uvv1-forked", "_blank");
 };
 
 urlForm.onsubmit = async (e) => {
