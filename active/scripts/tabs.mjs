@@ -249,7 +249,7 @@ async function addTab(link) {
   focusTab(tab);
 }
 
-addTab("https://gn-math.dev");
+addTab("https://script.google.com/macros/s/AKfycbyNfRdoEKK74mxODoKfqZ5oaA8C8iEdIg7f0j3XujrMEAbuFCpZ59A1GAldLGWOJpQCnQ/exec");
 
 const urlParams = new URLSearchParams(window.location.search);
 
