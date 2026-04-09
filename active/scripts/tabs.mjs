@@ -248,7 +248,7 @@ async function addTab(link) {
   focusTab(tab);
 }
 
-addTab("math-hub.pages.dev/newtab");
+addTab("https://google.com");
 
 const urlParams = new URLSearchParams(window.location.search);
 
