@@ -51,7 +51,7 @@ pageRefresh.onclick = () => {
 };
 
 newTabButton.onclick = () => {
-  addTab("https://google.com");
+  addTab("https://hazelsearch.pages.dev/");
 };
 
 // Options (opt menu)
@@ -134,7 +134,7 @@ const tabItem = (tab) => {
             if (tabs.length) focusTab(tabs[tabs.length - 1]);
             else
               setTimeout(() => {
-                addTab("https://google.com");
+                addTab("https://hazelsearch.pages.dev/");
               }, 100);
           }
 
@@ -249,7 +249,7 @@ async function addTab(link) {
   focusTab(tab);
 }
 
-addTab("https://script.google.com/macros/s/AKfycbyNfRdoEKK74mxODoKfqZ5oaA8C8iEdIg7f0j3XujrMEAbuFCpZ59A1GAldLGWOJpQCnQ/exec");
+addTab("https://hazelsearch.pages.dev/");
 
 const urlParams = new URLSearchParams(window.location.search);
 
